@@ -1,4 +1,3 @@
-using System;
 using System.Net.Http;
 using System.Net.Http.Headers;
 
@@ -22,6 +21,7 @@ namespace WorkingVpnApi
             var response = await httpClient.GetAsync($"{apiUrl}/servers");
             return await response.Content.ReadAsStringAsync();
         }
+        
         public async Task<string> GetStatus()
         {
             var response = await httpClient.GetAsync($"{apiUrl}/status");
