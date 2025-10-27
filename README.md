@@ -3,7 +3,6 @@ Web-API for [workingvpn.com](https://workingvpn.com) an extension to unblock web
 
 ## Example
 ```cs
-using System;
 using WorkingVpnApi;
 
 namespace Application
